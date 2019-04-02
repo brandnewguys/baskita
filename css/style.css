@@ -3,6 +3,11 @@
 Primary style
 
 -------------------------------- */
+@font-face {
+  font-family: Futura;
+  src: url("../FuturaPTBold.otf") format("opentype");
+}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -15,7 +20,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Slabo 27px", serif;
+  font-family: Futura, serif;
   color: #ffffff;
   background-color: #131d20;
 }
@@ -145,7 +150,7 @@ Main Components
   background-size: cover;
 }
 .cd-section:nth-of-type(2) .cd-half-block:nth-of-type(2) {
-  background-image: url("../img/court-right.png");
+  background-image: url("../img/5df40452c567cd8983403c885383b347 half 2.png");
   background-size: cover;
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
